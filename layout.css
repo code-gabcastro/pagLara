@@ -51,8 +51,9 @@ h2 {
     font-weight: 200;
     color: #fff0ed;
     width: 25%;
-    margin: 2%;
+    margin: 0 1%;
     text-shadow: 0 0 10px white;
+    padding: 5px;
 }
 
 .text:hover{
@@ -66,9 +67,8 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     gap: 12px;
-    width: 45%;
+    width: 50%;
     min-width: min-content;
-    margin-top: 2%;
 }
 
 img{
@@ -78,21 +78,23 @@ img{
     text-align: center;
     display: grid;
     place-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 img:hover{
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
     transform: scale(1.50, 1.50);
 }
 
 
 footer{
     text-align: center;
-    margin-top: 25px;
+    margin: 0;
 }
 
 .end {
     display: inline-block;
+    margin: 0;
     font-weight: bold;
     color: #ffc2c3;
     text-align: center;
